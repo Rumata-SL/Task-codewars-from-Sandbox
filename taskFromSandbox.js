@@ -164,3 +164,43 @@ function maps(x) {
       }
       return a;
 } */
+
+// Task № 9 8 kyu---------------------------
+// Find the next perfect square!
+/*
+      You might know some pretty large perfect squares.
+      But what about the NEXT one?
+      Complete the findNextSquare method that finds the next
+      integral perfect square after the one passed as a parameter.
+      Recall that an integral perfect square is an 
+      integer n such that sqrt(n) is also an integer.
+      If the parameter is itself not a perfect square 
+      then -1 should be returned. You may assume the parameter 
+      is non-negative. 
+*/
+/* 
+      Возможно, вы знаете несколько довольно больших идеальных 
+      квадратов. Но как насчет СЛЕДУЮЩЕГО?
+      Завершите findNextSquareметод, который находит 
+      следующий целочисленный идеальный квадрат после квадрата,
+      переданного в качестве параметра. Напомним, что целочисленный 
+      совершенный квадрат — это целое число n, такое что sqrt(n) 
+      также является целым числом.
+      Если параметр сам по себе не является идеальным квадратом -1,
+      его следует вернуть. Вы можете предположить, 
+      что параметр неотрицательный. 
+*/
+/* 
+function findNextSquare(sq) {
+      let num = 0;
+      let num1 = 0;
+      
+      if (Math.sqrt(sq) % 1 === 0) {
+            num = Math.sqrt(sq);
+            num1 = num + 1;
+      } else {
+            return -1;
+      }
+      return num1 * num1;
+}
+ */
