@@ -126,3 +126,22 @@ function opposite(number) {
       return -number;
 }
  */
+
+// Task № 7 8 kyu---------------------------
+// Returning Strings
+/*
+      Make a function that will return a greeting 
+      statement that uses an input; your program 
+      should return, "Hello, <name> how are you doing today?".
+*/
+/* 
+      Создайте функцию, которая будет возвращать 
+      оператор приветствия, использующий ввод; 
+      ваша программа должна вернуться,
+      "Hello, <name> how are you doing today?".
+*/
+/* 
+function greet(name) {
+      return `Hello, ${name} how are you doing today?`;
+}
+ */
