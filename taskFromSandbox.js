@@ -58,3 +58,33 @@ const binaryArrayToNumber = (arr) => {
 };
 console.log(binaryArrayToNumber([0, 1, 1, 0]));
  */
+
+// Task № 4 7 kyu---------------------------
+/* 
+      Your task is to make a function that can take
+      any non-negative integer as an argument and 
+      return it with its digits in descending order.
+      Essentially, rearrange the digits to create the
+      highest possible number.
+      Examples:
+      Input: 42145 Output: 54421
+ */
+/* 
+      Ваша задача состоит в том, чтобы создать функцию,
+      которая может принимать любое неотрицательное целое
+      число в качестве аргумента и возвращать его с 
+      цифрами в порядке убывания. По сути, переставьте цифры, чтобы получить максимально возможное число.
+      Примеры:
+      Вход: 42145 Выход:54421 
+*/
+/* 
+function descendingOrder(n) {
+      n = n + "";
+      n = n
+            .split("")
+            .sort((b, a) => a - b)
+            .join("");
+      return +n;
+}
+console.log(descendingOrder(412356789));
+ */
