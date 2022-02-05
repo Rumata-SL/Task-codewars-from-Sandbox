@@ -204,3 +204,29 @@ function findNextSquare(sq) {
       return num1 * num1;
 }
  */
+
+// Task № 10 6 kyu---------------------------
+// Build Tower )))))
+/*
+      Build Tower by the following given argument:
+      number of floors (integer and always 
+      greater than 0. 
+*/
+/*
+      Постройте Башню по следующему заданному аргументу:
+      количество этажей (целое число и всегда больше 0). 
+*/
+/* 
+function buildTower(nFloors) {
+      let result = [];
+
+      for (let i = 1; i <= nFloors; i++) {
+            result.push(
+                  " ".repeat(nFloors - i) +
+                        "*".repeat(i * 2 - 1) +
+                        " ".repeat(nFloors - i)
+            );
+      }
+      return result;
+}
+ */
