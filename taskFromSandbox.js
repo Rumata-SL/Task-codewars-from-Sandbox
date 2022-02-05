@@ -110,3 +110,19 @@ function addBinary(a, b) {
 }
 console.log(addBinary(1, 2));
  */
+
+// Task № 6 8 kyu---------------------------
+// Opposite number
+/* 
+      Very simple, given an integer or a floating-point number,
+      find its opposite.
+ */
+/* 
+      Очень просто, по заданному целому числу или числу
+      с плавающей запятой найти его противоположность.
+ */
+/* 
+function opposite(number) {
+      return -number;
+}
+ */
