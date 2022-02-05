@@ -88,3 +88,25 @@ function descendingOrder(n) {
 }
 console.log(descendingOrder(412356789));
  */
+
+// Task № 5 7 kyu---------------------------
+// Binary Addition
+/* 
+      Implement a function that adds two numbers 
+      together and returns their sum in binary.
+      The conversion can be done before, or after the 
+      addition.
+      The binary number returned should be a string.
+ */
+/* 
+      Реализуйте функцию, которая складывает два числа
+      и возвращает их сумму в двоичном виде. 
+      Преобразование может быть выполнено до или после добавления.
+      Возвращаемое двоичное число должно быть строкой.
+ */
+/* 
+function addBinary(a, b) {
+      return (a + b).toString(2);
+}
+console.log(addBinary(1, 2));
+ */
