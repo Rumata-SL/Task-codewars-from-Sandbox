@@ -123,3 +123,19 @@ const stringToNumber = function (str) {
       return +str;
 };
  */
+
+// Task № 26 8 kyu---------------------------
+// Convert a Boolean to a String
+/*
+      Implement a function which convert
+      the given boolean value into its string 
+      representation. 
+*/
+/*
+      Реализуйте функцию, которая преобразует данное логическое значение в его строковое представление. 
+*/
+/* 
+function booleanToString(b) {
+      return b + "";
+}
+ */
