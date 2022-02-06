@@ -47,4 +47,30 @@ function oddOrEven(array) {
       });
       return sum % 2 == 0 ? "even" : "odd";
 }
+*/
+
+// Task № 23 7 kyu---------------------------
+// List Filtering
+/*
+      In this kata you will create a function that
+      takes a list of non-negative integers and 
+      strings and returns a new list with the 
+      strings filtered out. 
+ */
+/*
+      В этом ката вы создадите функцию, которая
+      берет список неотрицательных целых чисел и
+      строк и возвращает новый список с 
+      отфильтрованными строками. 
+*/
+/* 
+function filterList(l) {
+      let arr = [];
+      l.forEach((element) => {
+            if (typeof element === "number") {
+                  arr.push(element);
+            }
+      });
+      return arr;
+}
  */
