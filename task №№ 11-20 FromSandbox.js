@@ -173,3 +173,31 @@ function findNeedle(haystack) {
       }
 }
  */
+
+// Task № 18 8 kyu---------------------------
+// Invert values
+/*
+      Given a set of numbers, return the additive
+      inverse of each. Each positive becomes 
+      negatives, and the negatives become positives.
+      invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5] 
+*/
+/*
+      Учитывая набор чисел, верните добавку,
+      обратную каждому из них. Каждое положительное
+      становится отрицательным, а отрицательное
+      становится положительным.
+      invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]  
+*/
+/* 
+function invert(array) {
+      if (array.length === 0) {
+            return array;
+      }
+
+      let arr = array.map((item) => {
+            return item * -1;
+      });
+      return arr;
+}
+ */
