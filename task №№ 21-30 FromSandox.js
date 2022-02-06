@@ -105,3 +105,21 @@ function positiveSum(arr) {
       return sum;
 }
  */
+
+// Task № 25 8 kyu---------------------------
+// Convert a String to a Number!
+/*
+      We need a function that can transform a 
+      string into a number. What ways of achieving 
+      this do you know? 
+ */
+/*
+      Нам нужна функция, которая может преобразовать
+      строку в число. Какие способы достижения 
+      этого вы знаете? 
+  */
+/* 
+const stringToNumber = function (str) {
+      return +str;
+};
+ */
