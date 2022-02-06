@@ -148,3 +148,28 @@ String.prototype.toJadenCase = function () {
             .join(" ");
 };
  */
+// Task № 17 8 kyu---------------------------
+// A Needle in the Haystack
+/*
+      Can you find the needle in the haystack?
+      Write a function findNeedle() that takes 
+      an array full of junk but containing one "needle"
+      After your function finds the needle it should 
+      return a message (as a string) that says:
+      "found the needle at position " plus the 
+      index it found the 
+*/
+/*
+      Напишите функцию findNeedle(), которая принимает arrayполный мусор, но содержит один"needle"
+      После того, как ваша функция найдет иглу, она должна вернуть сообщение (в виде строки), в котором говорится:
+      "found the needle at position "плюс indexон нашел иглу 
+*/
+/* 
+function findNeedle(haystack) {
+      for (let i = 0; i < haystack.length; i++) {
+            if (haystack[i] === "needle") {
+                  return `found the needle at position ${i}`;
+            }
+      }
+}
+ */
