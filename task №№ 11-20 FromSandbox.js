@@ -118,3 +118,33 @@ function findAverage(array) {
       return 0;
 }
  */
+// Task № 16 7 kyu---------------------------
+// Jaden Casing Strings
+/*
+      Your task is to convert strings to how they would
+      be written by Jaden Smith. The strings are actual
+      quotes from Jaden Smith, but they are not capitalized
+      in the same way he originally typed them.
+      Example:
+      Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
+      Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real" 
+ */
+/*
+      Ваша задача состоит в том, чтобы преобразовать строки в то,
+      как они были бы написаны Джейденом Смитом.
+      Строки являются настоящими цитатами Джейдена Смита,
+      но они не написаны с заглавной буквы так,
+      как он их изначально напечатал.
+      Пример:
+      Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
+      Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real" 
+*/
+/* 
+String.prototype.toJadenCase = function () {
+      return this.split(" ")
+            .map((str) => {
+                  return str.charAt(0).toUpperCase() + str.slice(1);
+            })
+            .join(" ");
+};
+ */
