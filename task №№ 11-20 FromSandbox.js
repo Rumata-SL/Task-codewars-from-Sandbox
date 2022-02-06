@@ -224,3 +224,26 @@ function century(year) {
       return Math.ceil(year / 100);
 }
  */
+
+// Task № 20 7 kyu---------------------------
+// Remove the minimum
+/*
+      Given an array of integers, remove the smallest value.
+      Do not mutate the original array/list.
+      If there are multiple elements with the same value,
+      remove the one with a lower index. If you get an empty 
+      array/list, return an empty array/list.
+      Don't change the order of the elements that are left.
+*/
+/*
+      Учитывая массив целых чисел, удалите наименьшее значение.
+      Не изменяйте исходный массив/список . Если есть несколько элементов с одинаковым значением, удалите элемент с более низким индексом. Если вы получили пустой массив/список, верните пустой массив/список.
+      Не меняйте порядок оставшихся элементов. 
+*/
+/* 
+function removeSmallest(numbers) {
+      let minItem = numbers.indexOf(Math.min(...numbers));
+      let arr = [...numbers];
+      arr.splice(minItem, 1);
+      return arr;
+} */
