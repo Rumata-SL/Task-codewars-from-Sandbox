@@ -197,3 +197,23 @@ function hero(bullets, dragons) {
       return bullets / dragons >= 2;
 }
  */
+
+// Task № 29 6 kyu---------------------------
+//Break camelCase
+/*
+      Complete the solution so that the function will break up camel casing, using a space between words.
+      Example
+      "camelCasing"  =>  "camel Casing"
+      "identifier"   =>  "identifier" 
+ */
+/*
+      Завершите решение, чтобы функция разбивала верблюжий регистр, используя пробелы между словами.
+      Пример
+      "camelCasing"  =>  "camel Casing"
+      "identifier"   =>  "identifier"  
+*/
+/* 
+function solution(string) {
+      return string.split(/(?=[A-Z])/).join(" ");
+}
+ */
