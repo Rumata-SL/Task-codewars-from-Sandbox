@@ -191,3 +191,40 @@ function paperwork(n, m) {
       return n < 0 || m < 0 ? 0 : n * m;
 }
  */
+// Task № 40 8 kyu---------------------------
+// Sum without highest and lowest number
+/*
+      Sum all the numbers of a given array ( cq. list ),
+      except the highest and the lowest element ( by value,
+      not by index! ).
+      The highest or lowest element respectively is a
+      single element at each edge, even if there are
+      more than one with the same value.
+      Mind the input validation. 
+*/
+/*
+      Суммируйте все числа заданного массива (cq. list)
+      , кроме самого высокого и самого низкого элемента
+      (по значению, а не по индексу!).
+      Самый высокий или самый низкий элемент,
+      соответственно, является одним элементом
+      на каждом ребре, даже если их несколько с
+      одинаковым значением.
+      Помните о проверке ввода. 
+*/
+/* 
+function sumArray(array) {
+      if (array == null || array.length < 2) {
+            return 0;
+      } else {
+            let result = 0;
+            array.sort(function (a, b) {
+                  return a - b;
+            });
+            for (let i = 1; i < array.length - 1; i++) {
+                  result += array[i];
+            }
+            return result;
+      }
+}
+ */
