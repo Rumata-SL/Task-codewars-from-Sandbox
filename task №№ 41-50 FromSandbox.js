@@ -100,3 +100,30 @@ function stringToArray(string) {
 function minNum(num) {
       return num > 0 ? num - num * 2 : num;
 } */
+// Task № 45 8 kyu---------------------------
+// L1: Set Alarm
+/* 
+      The function should return true if you are 
+      employed and not on vacation (because these are the circumstances under which you need to set an alarm).
+      It should return false otherwise. Examples:
+      setAlarm(true, true) -> false
+      setAlarm(false, true) -> false
+      setAlarm(false, false) -> false
+      setAlarm(true, false) -> true 
+*/
+/*
+      Функция должна возвращать true, если вы работаете,
+      а не в отпуске (поскольку это обстоятельства, 
+      при которых вам нужно установить будильник).
+      В противном случае он должен возвращать false.
+      Примеры:
+      setAlarm(true, true) -> false
+      setAlarm(false, true) -> false
+      setAlarm(false, false) -> false
+      setAlarm(true, false) -> true 
+ */
+/* 
+function setAlarm(employed, vacation) {
+      return employed && !vacation ? true : false;
+}
+ */
