@@ -197,3 +197,32 @@ function numberToString(num) {
       return num + "";
 }
  */
+// Task № 49 8 kyu---------------------------
+// Are You Playing Banjo?
+/*
+      Create a function which answers the question
+      "Are you playing banjo?".
+      If your name starts with the letter "R" or
+      lower case "r", you are playing banjo!
+      The function takes a name as its only argument,
+      and returns one of the following strings:
+      name + " plays banjo" 
+      name + " does not play banjo" 
+ */
+/*
+      Создайте функцию, которая отвечает на вопрос
+      «Вы играете на банджо?».
+      Если ваше имя начинается с буквы «R» или строчной «r»,
+      вы играете на банджо!
+      Функция принимает имя в качестве единственного
+      аргумента и возвращает одну из следующих строк:
+      name + " plays banjo" 
+      name + " does not play banjo"
+*/
+/* 
+function areYouPlayingBanjo(name) {
+      return name[0] === "r" || name[0] === "R"
+            ? `${name} plays banjo`
+            : `${name} does not play banjo`;
+}
+ */
