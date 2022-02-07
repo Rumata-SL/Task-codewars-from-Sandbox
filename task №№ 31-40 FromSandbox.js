@@ -128,14 +128,46 @@ function solution(str) {
 // Task № 37 8 kyu---------------------------
 // Remove String Spaces
 /*
-      Simple, remove the spaces from the string,
-      then return the resultant string. 
+Simple, remove the spaces from the string,
+then return the resultant string. 
 */
 /*
-      Просто удалите пробелы из строки,
-      затем верните результирующую строку.
- */
+Просто удалите пробелы из строки,
+затем верните результирующую строку.
+*/
 /* 
 function noSpace(x) {
       return x.split(" ").join("");
+} */
+// Task № 37 8 kyu---------------------------
+// Opposites Attract
+/*
+      Timmy & Sarah think they are in love, but around 
+      where they live, they will only know once they pick a
+      flower each. If one of the flowers has an even number of 
+      petals and the other has an odd number of petals it means
+      they are in love.
+      Write a function that will take the number of petals of each flower and return true if they are in love and 
+      false if they aren't. 
+*/
+/*
+      Тимми и Сара думают, что они влюблены, но там, где 
+      они живут, они узнают об этом, только когда каждый
+      сорвет 
+      по цветку. Если у одного из цветов четное количество лепестков, а у другого нечетное количество 
+      лепестков, это означает, что они влюблены.
+      Напишите функцию, которая будет принимать
+      количество лепестков каждого цветка и возвращать
+      true, если они влюблены, и false, если нет. 
+*/
+/* 
+function lovefunc(flower1, flower2) {
+      if (
+            (flower1 % 2 === 0 && flower2 % 2 !== 0) ||
+            (flower1 % 2 !== 0 && flower2 % 2 === 0)
+      ) {
+            return true;
+      } else {
+            return false;
+      }
 } */
