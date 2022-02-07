@@ -32,3 +32,37 @@ function sum(numbers) {
       return sum;
 } 
 */
+
+// Task № 42 8 kyu---------------------------
+// Calculate BMI
+/*
+      Write function bmi that calculates body mass index
+      (bmi = weight / height2).
+      if bmi <= 18.5 return "Underweight"
+      if bmi <= 25.0 return "Normal"
+      if bmi <= 30.0 return "Overweight"
+      if bmi > 30 return "Obese" 
+*/
+/*
+      Напишите функцию bmi, которая вычисляет индекс массы тела
+      (bmi = вес / рост 2 ).
+      если ИМТ <= 18,5, вернуть "Недостаточный вес"
+      если ИМТ <= 25,0, вернуть «Нормальный»
+      если ИМТ <= 30,0 вернуть "Избыточный вес"
+      если ИМТ > 30, верните «Ожирение». 
+*/
+/* 
+function bmi(weight, height) {
+      let index = weight / height ** 2;
+      let count = "";
+      if (index <= 18.5) {
+            return (count += "Underweight");
+      } else if (index <= 25.0) {
+            return (count += "Normal");
+      } else if (index <= 30.0) {
+            return (count += "Overweight");
+      } else if (index > 30) {
+            return (count += "Obese");
+      }
+}
+ */
