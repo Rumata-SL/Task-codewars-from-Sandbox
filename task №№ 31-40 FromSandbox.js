@@ -113,15 +113,29 @@ function simpleMultiplication(number) {
 // Task № 36 8 kyu---------------------------
 // Reversed Strings
 /*
-      Complete the solution so that it reverses
-      the string passed into it.
+Complete the solution so that it reverses
+the string passed into it.
 */
 /*
-      Завершите решение так, чтобы оно перевернуло
-      переданную в него строку. 
+Завершите решение так, чтобы оно перевернуло
+переданную в него строку. 
 */
 /* 
 function solution(str) {
       str = str.split("").reverse().join("");
       return str;
+} */
+// Task № 37 8 kyu---------------------------
+// Remove String Spaces
+/*
+      Simple, remove the spaces from the string,
+      then return the resultant string. 
+*/
+/*
+      Просто удалите пробелы из строки,
+      затем верните результирующую строку.
+ */
+/* 
+function noSpace(x) {
+      return x.split(" ").join("");
 } */
