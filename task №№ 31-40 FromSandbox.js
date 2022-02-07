@@ -139,7 +139,7 @@ then return the resultant string.
 function noSpace(x) {
       return x.split(" ").join("");
 } */
-// Task № 37 8 kyu---------------------------
+// Task № 38 8 kyu---------------------------
 // Opposites Attract
 /*
       Timmy & Sarah think they are in love, but around 
@@ -171,3 +171,23 @@ function lovefunc(flower1, flower2) {
             return false;
       }
 } */
+// Task № 39 8 kyu---------------------------
+// Beginner Series #1 School Paperwork
+/*
+      Your classmates asked you to copy some paperwork for them.
+      You know that there are 'n' classmates and the paperwork
+      has 'm' pages.
+      Your task is to calculate how many blank pages do you need.
+      If n < 0 or m < 0 return 0. 
+*/
+/*
+      Ваши одноклассники попросили вас скопировать для 
+      них некоторые документы. Вы знаете, что есть «n» одноклассников, а в документах «m» страниц.
+      Ваша задача — посчитать, сколько чистых страниц 
+      вам нужно. Если n < 0или m < 0вернуться 0.
+ */
+/* 
+function paperwork(n, m) {
+      return n < 0 || m < 0 ? 0 : n * m;
+}
+ */
