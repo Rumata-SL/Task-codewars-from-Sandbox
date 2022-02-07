@@ -94,3 +94,18 @@ function fakeBin(x) {
       return array;
 } 
 */
+// Task № 35 8 kyu---------------------------
+// Simple multiplication
+/*
+      This kata is about multiplying a given number by 
+      eight if it is an even number and by nine otherwise. 
+ */
+/* 
+      Это ката об умножении заданного числа на восемь,
+      если оно четное, и на девять в противном случае.
+ */
+/* 
+function simpleMultiplication(number) {
+      return number % 2 ? number * 9 : number * 8;
+}
+ */
