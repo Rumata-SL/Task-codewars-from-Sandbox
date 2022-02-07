@@ -50,4 +50,20 @@ function isIsogram(str) {
       str = str.toUpperCase();
       return str;
 }
- */
+*/
+
+// Task № 33 8 kyu---------------------------
+// String repeat
+/*
+      Write a function called repeatStr which 
+      repeats the given string string exactly n times.
+      repeatStr(6, "I") // "IIIIII" 
+*/
+/*
+      Напишите вызываемую функцию, repeatStrкоторая 
+      повторяет заданную строку stringточное количество n раз.
+      repeatStr(6, "I") // "IIIIII" 
+*/
+/* function repeatStr(n, s) {
+      return s.repeat(n);
+} */
