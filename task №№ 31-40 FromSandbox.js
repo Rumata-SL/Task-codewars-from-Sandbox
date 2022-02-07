@@ -109,3 +109,19 @@ function simpleMultiplication(number) {
       return number % 2 ? number * 9 : number * 8;
 }
  */
+
+// Task № 36 8 kyu---------------------------
+// Reversed Strings
+/*
+      Complete the solution so that it reverses
+      the string passed into it.
+*/
+/*
+      Завершите решение так, чтобы оно перевернуло
+      переданную в него строку. 
+*/
+/* 
+function solution(str) {
+      str = str.split("").reverse().join("");
+      return str;
+} */
