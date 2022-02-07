@@ -226,3 +226,30 @@ function areYouPlayingBanjo(name) {
             : `${name} does not play banjo`;
 }
  */
+// Task № 50 8 kyu---------------------------
+// Grasshopper - Summation
+/* 
+      Write a program that finds the summation of every
+      number from 1 to num. The number will always
+      be a positive integer greater than 0.
+      For example:
+      summation(2) -> 3
+      1 + 2
+ */
+/*
+      Напишите программу, которая находит сумму всех
+      чисел от 1 до num. Число всегда будет положительным
+      целым числом больше 0.
+      Например:
+      summation(2) -> 3
+      1 + 2 
+*/
+/* 
+const summation = function (num) {
+      let res = 0;
+      for (let i = 0; i < num; i++) {
+            res += i + 1;
+      }
+      return res;
+};
+ */
