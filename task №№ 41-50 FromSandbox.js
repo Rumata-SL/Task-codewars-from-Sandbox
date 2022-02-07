@@ -147,3 +147,30 @@ function sumMix(x) {
       return x.reduce((x, y) => Number(x) + Number(y), 0);
 }
  */
+// Task № 47 5 kyu---------------------------
+// Extract the domain name from a URL
+/*
+      Write a function that when given a URL as a string,
+      parses out just the domain name and returns it
+      as a string. For example:
+      domainName("http://github.com/carbonfive/raygun") == "github" 
+      domainName("http://www.zombie-bites.com") == "zombie-bites"
+      domainName("https://www.cnet.com") == "cnet" 
+ */
+/*
+      Напишите функцию, которая при задании URL-адреса
+      в виде строки анализирует только доменное имя
+      и возвращает его в виде строки. Например:
+      domainName("http://github.com/carbonfive/raygun") == "github" 
+      domainName("http://www.zombie-bites.com") == "zombie-bites"
+      domainName("https://www.cnet.com") == "cnet" 
+ */
+/*
+ function domainName(url) {
+      return url
+            .replace("https://", "")
+            .replace("http://", "")
+            .replace("www.", "")
+            .split(".")[0];
+}
+ */
