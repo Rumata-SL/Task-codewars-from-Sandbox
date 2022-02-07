@@ -55,15 +55,42 @@ function isIsogram(str) {
 // Task № 33 8 kyu---------------------------
 // String repeat
 /*
-      Write a function called repeatStr which 
-      repeats the given string string exactly n times.
-      repeatStr(6, "I") // "IIIIII" 
+Write a function called repeatStr which 
+repeats the given string string exactly n times.
+repeatStr(6, "I") // "IIIIII" 
 */
 /*
-      Напишите вызываемую функцию, repeatStrкоторая 
-      повторяет заданную строку stringточное количество n раз.
-      repeatStr(6, "I") // "IIIIII" 
+Напишите вызываемую функцию, repeatStrкоторая 
+повторяет заданную строку stringточное количество n раз.
+repeatStr(6, "I") // "IIIIII" 
 */
 /* function repeatStr(n, s) {
       return s.repeat(n);
 } */
+// Task № 34 8 kyu---------------------------
+// Fake Binary
+/* 
+      Given a string of digits, you should replace 
+      any digit below 5 with '0' and any digit 5 and
+      above with '1'. Return the resulting string.
+*/
+/*
+      Учитывая строку цифр, вы должны заменить любую
+      цифру ниже 5 на «0», а любую цифру 5 и выше на «1».
+      Верните полученную строку. 
+*/
+/* 
+function fakeBin(x) {
+      let array = [];
+      x = x.split("");
+      for (let i = 0; i < x.length; i++) {
+            if (+x[i] < 5) {
+                  array.push(0);
+            } else if (+x[i] >= +5) {
+                  array.push(1);
+            }
+      }
+      array = array.join("");
+      return array;
+} 
+*/
