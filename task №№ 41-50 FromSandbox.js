@@ -66,3 +66,19 @@ function bmi(weight, height) {
       }
 }
  */
+// Task № 43 8 kyu---------------------------
+//Convert a string to an array
+/*
+      Write a function to split a string and convert
+      it into an array of words. For example:
+      "Robin Singh" ==> ["Robin", "Singh"] 
+*/
+/* 
+      Напишите функцию, которая разбивает строку и
+      преобразует ее в массив слов. Например:
+      "Robin Singh" ==> ["Robin", "Singh"]
+ */
+/* 
+function stringToArray(string) {
+      return string.split(" ");
+} */
