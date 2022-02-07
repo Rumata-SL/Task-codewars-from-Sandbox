@@ -34,3 +34,20 @@ function isIsogram(str) {
       }
       return true;
 } */
+
+// Task № 32 8 kyu---------------------------
+// MakeUpperCase
+/*
+      Write a function which converts the input
+      string to uppercase. 
+*/
+/*
+      Напишите функцию, которая преобразует входную
+      строку в верхний регистр. 
+*/
+
+/* function makeUpperCase(str) {
+      str = str.toUpperCase();
+      return str;
+}
+ */
