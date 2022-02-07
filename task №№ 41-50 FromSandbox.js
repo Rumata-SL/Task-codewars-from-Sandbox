@@ -81,4 +81,22 @@ function bmi(weight, height) {
 /* 
 function stringToArray(string) {
       return string.split(" ");
+} 
+*/
+
+// Task № 44 8 kyu---------------------------
+// Return Negative
+/*
+      In this simple assignment you are given a
+      number and have to make it negative. 
+      But maybe the number is already negative? 
+ */
+/*
+      В этом простом задании вам дается число, и 
+      вы должны сделать его отрицательным. А может быть,
+      число уже отрицат 
+ */
+/* 
+function minNum(num) {
+      return num > 0 ? num - num * 2 : num;
 } */
