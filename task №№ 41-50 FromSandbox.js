@@ -155,7 +155,7 @@ function sumMix(x) {
       as a string. For example:
       domainName("http://github.com/carbonfive/raygun") == "github" 
       domainName("http://www.zombie-bites.com") == "zombie-bites"
-      domainName("https://www.cnet.com") == "cnet" 
+      domainName("https://www.cnet.com") == "cnet"
  */
 /*
       Напишите функцию, которая при задании URL-адреса
@@ -163,7 +163,7 @@ function sumMix(x) {
       и возвращает его в виде строки. Например:
       domainName("http://github.com/carbonfive/raygun") == "github" 
       domainName("http://www.zombie-bites.com") == "zombie-bites"
-      domainName("https://www.cnet.com") == "cnet" 
+      domainName("https://www.cnet.com") == "c.net"
  */
 /*
  function domainName(url) {
