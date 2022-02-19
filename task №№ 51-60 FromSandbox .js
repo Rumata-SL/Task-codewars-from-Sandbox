@@ -180,3 +180,21 @@ function findUniq(arr) {
       return arr[0];
 }
  */
+// Task № 59 8 kyu---------------------------
+// Third Angle of a Triangle
+/*
+      You are given two interior angles (in degrees) 
+      of a triangle.
+      Write a function to return the 3rd.
+      Note: only positive integers will be tested. 
+*/
+/* 
+      Вам даны два внутренних угла (в градусах) треугольника.
+      Напишите функцию, возвращающую 3-е число.
+      Примечание: будут проверены только
+      положительные целые числа.
+ */
+/* 
+function otherAngle(a, b) {
+      return 180 - (a + b);
+} */
