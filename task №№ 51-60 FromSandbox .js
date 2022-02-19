@@ -156,3 +156,27 @@ function validatePIN(pin) {
 /* function check(a, x) {
       return a.includes(x) ? true : false;
 } */
+// Task № 58 6 kyu---------------------------
+// Find the unique number
+/*
+      There is an array with some numbers.
+      All numbers are equal except for one.
+      Try to find it!
+      findUniq([ 1, 1, 1, 2, 1, 1 ]) === 2
+      findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55 
+*/
+/*
+      Есть массив с некоторыми числами.
+      Все числа равны, кроме одного. Попробуйте найти!
+      findUniq([ 1, 1, 1, 2, 1, 1 ]) === 2
+      findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
+*/
+/* 
+function findUniq(arr) {
+      arr.sort((a, b) => a - b);
+      if (arr[0] === arr[1]) {
+            return arr[arr.length - 1];
+      }
+      return arr[0];
+}
+ */
