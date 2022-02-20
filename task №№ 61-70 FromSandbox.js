@@ -14,7 +14,7 @@
 const greet = () => "hello world!";
  */
 
-// Task № 62 8 kyu---------------------------
+// Task № 62 7 kyu---------------------------
 // Highest and Lowest
 /*
       In this little assignment you are given a string of
@@ -26,7 +26,46 @@ const greet = () => "hello world!";
       разделенных пробелами, и вы должны вернуть
       наибольшее и наименьшее число. 
  */
+/* 
 function highAndLow(numbers) {
       numbers = numbers.split(" ");
       return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
 }
+ */
+
+// Task № 63 6 kyu---------------------------
+// Tribonacci Sequence
+
+/* 
+      Well met with Fibonacci bigger brother, AKA Tribonacci.
+      As the name may already reveal, it works basically like
+      a Fibonacci, but summing the last 3 (instead of 2) numbers
+      of the sequence to generate the next. And, worse part of it,
+      regrettably I won't get to hear non-native Italian speakers
+      trying to pronounce it :(
+      So, if we are to start our Tribonacci sequence with [1, 1, 1] 
+      as a starting input (AKA signature), we have this sequence:
+      [1, 1 ,1, 3, 5, 9, 17, 31, ...] 
+*/
+/* 
+      Хорошо познакомился со старшим братом Фибоначчи,
+      также известным как Трибоначчи.
+      Как уже видно из названия, он работает в основном как Фибоначчи,
+      но суммирует последние 3 (вместо 2) чисел последовательности для
+      генерации следующего. И, что еще хуже, к сожалению, я не услышу,
+      как его произносят не носители итальянского языка :(
+      Итак, если мы хотим начать нашу последовательность 
+      Трибоначчи [1, 1, 1]в качестве начального ввода ( подпись AKA ),
+      у нас есть эта последовательность:
+      [1, 1 ,1, 3, 5, 9, 17, 31, ...]
+      Но что, если мы начали с [0, 0, 1]п 
+*/
+/* 
+function tribonacci(signature, n) {
+      let trib = signature;
+      for (let i = 3; i < n; i++) {
+            trib.push(trib[i - 1] + trib[i - 2] + trib[i - 3]);
+      }
+      return trib.slice(0, n);
+}
+ */
