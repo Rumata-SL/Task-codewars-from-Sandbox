@@ -69,3 +69,39 @@ function tribonacci(signature, n) {
       return trib.slice(0, n);
 }
  */
+
+// Task № 64 8 kyu---------------------------
+// Rock Paper Scissors!
+/*
+      Let's play! You have to return which player won!
+      In case of a draw return Draw!.
+      Examples:
+      rps('scissors','paper') // Player 1 won!
+      rps('scissors','rock') // Player 2 won!
+      rps('paper','paper') // Draw! 
+*/
+/*
+      Давайте играть! Вы должны вернуть, какой игрок выиграл!
+      В случае ничьей возврат Draw!.
+      Примеры:
+      rps('scissors','paper') // Player 1 won!
+      rps('scissors','rock') // Player 2 won!
+      rps('paper','paper') // Draw! 
+*/
+/*
+const rps = (p1, p2) => {
+      if (p1 === p2) {
+            return `Draw!`;
+      }
+      let arr = {
+            rock: "scissors",
+            paper: "rock",
+            scissors: "paper",
+      };
+      if (arr[p1] === p2) {
+            return `Player 1 won!`;
+      } else {
+            return `Player 2 won!`;
+      }
+}; 
+*/
