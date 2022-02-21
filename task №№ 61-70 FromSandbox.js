@@ -106,7 +106,7 @@ const rps = (p1, p2) => {
 }; 
 */
 
-// Task № 64 8 kyu---------------------------
+// Task № 65 8 kyu---------------------------
 // Thinkful - Logic Drills: Traffic light
 /*
       You're writing code to control your town's traffic lights.
@@ -133,5 +133,20 @@ function updateLight(current) {
             : current === "red"
             ? "green"
             : "yellow";
+}
+ */
+// Task № 66 8 kyu---------------------------
+// You Can't Code Under Pressure #1
+/* 
+      Code as fast as you can! You need to
+      double the integer and return it. 
+ */
+/* 
+      Код так быстро, как вы можете!
+      Вам нужно удвоить целое число и вернуть его.
+*/
+/* 
+function doubleInteger(i) {
+      return (i *= 2);
 }
  */
