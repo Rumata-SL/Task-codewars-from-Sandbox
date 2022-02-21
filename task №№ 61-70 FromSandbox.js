@@ -105,3 +105,33 @@ const rps = (p1, p2) => {
       }
 }; 
 */
+
+// Task № 64 8 kyu---------------------------
+// Thinkful - Logic Drills: Traffic light
+/*
+      You're writing code to control your town's traffic lights.
+      You need a function to handle each change from green,
+      to yellow, to red, and then to green again.
+      Complete the function that takes a string as 
+      an argument representing the current state of 
+      the light and returns a string representing 
+      the state the light should change to. 
+*/
+/*
+      Вы пишете код для управления светофорами в вашем городе.
+      Вам нужна функция для обработки каждого изменения с green,
+      на yellow, на red, а затем greenснова на .
+      Завершите функцию, которая принимает строку в 
+      качестве аргумента, представляющую текущее
+      состояние источника света, и возвращает строку,
+      представляющую состояние, в которое свет должен измениться. 
+  */
+/*
+function updateLight(current) {
+      return current === "yellow"
+            ? "red"
+            : current === "red"
+            ? "green"
+            : "yellow";
+}
+ */
