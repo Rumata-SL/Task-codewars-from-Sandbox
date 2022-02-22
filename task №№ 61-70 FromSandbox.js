@@ -208,6 +208,27 @@ function arithmetic(a, b, operator) {
       Ваша задача — написать функцию, которая принимает строку и возвращает новую строку, в которой удалены все гласные.
       Например, строка «Этот сайт для неудачников, LOL!» станет «Ths wbst s fr lsrs LL!». 
 */
+/* 
 function disemvowel(str) {
       return str.replace(/[aeiou]/gi, "");
 }
+ */
+
+// Task № 70 8 kyu---------------------------
+// Parse nice int from char problem
+
+/*
+      Ask a small girl - "How old are you?". She always says strange things... Lets help her!
+      For correct answer program should return int from 0 to 9.
+      Assume test input string always valid and may look like "1 year old" or "5 years old", etc.. The first char is number only. 
+*/
+/*
+      Спросите маленькую девочку - "Сколько тебе лет?". Она всегда говорит странные вещи... Давайте поможем ей!
+      Для правильного ответа программа должна вернуть int от 0 до 9.
+      Предположим, что тестовая входная строка всегда действительна и может выглядеть как «1 год» или «5 лет» и т. д. Первый символ — это только число. 
+*/
+/* 
+function getAge(inputString){
+      return +inputString[0];
+}
+ */
