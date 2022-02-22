@@ -166,3 +166,23 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
       }
 }
  */
+
+// Task № 78 7 kyu---------------------------
+// Shortest Word
+/*
+      Simple, given a string of words, return the length of the shortest word(s).
+      String will never be empty and you do not need to account for different data types. 
+*/
+/*
+      Просто, учитывая строку слов, вернуть длину кратчайшего слова (слов).
+      Строка никогда не будет пустой, и вам не нужно учитывать разные типы данных. 
+*/
+/*
+function findShort(s) {
+      s = s.split(" ").sort((a, b) => {
+            return a.length - b.length;
+      });
+      s = s[0];
+      return s.length;
+}
+ */
