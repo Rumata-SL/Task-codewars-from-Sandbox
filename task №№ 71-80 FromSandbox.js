@@ -123,16 +123,46 @@ function removeExclamationMarks(s) {
       "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
       ""  -->  "" 
 */
+/* 
 function order(words) {
       return words.length === 0
             ? ""
             : words
-                    .split(" ")
-                    .sort((pref, next) => {
-                          return (
-                                Number(pref.match(/\d/)) -
-                                Number(next.match(/\d/))
-                          );
-                    })
-                    .join(" ");
+                  .split(" ")
+                  .sort((pref, next) => {
+                        return (
+                              Number(pref.match(/\d/)) -
+                              Number(next.match(/\d/))
+                        );
+                  })
+                  .join(" ");
 }
+ */
+
+// Task № 77 7 kyu---------------------------
+// Two fighters, one winner.
+/*
+      Create a function that returns the name of the winner in a fight between two fighters.
+      Each fighter takes turns attacking the other and whoever kills the other first is victorious. Death is defined as having health <= 0.
+      Each fighter will be a Fighter object/instance. See the Fighter class below in your chosen language.
+      Both health and damagePerAttack (damage_per_attack for python) will be integers larger than 0. You can mutate the Fighter objects. 
+*/
+/*
+      Создайте функцию, которая возвращает имя победителя в схватке между двумя бойцами.
+      Каждый боец ​​по очереди атакует другого, и побеждает тот, кто убьет другого первым. Смерть определяется как наличие health <= 0.
+      Каждый боец ​​будет Fighterобъектом/экземпляром. См. класс бойца ниже на выбранном вами языке.
+      Оба healthи damagePerAttack( damage_per_attackдля python) будут целыми числами больше, чем 0. Вы можете мутировать Fighterобъекты. 
+*/
+/* 
+function declareWinner(fighter1, fighter2, firstAttacker) {
+      const one = Math.ceil(fighter1.health / fighter2.damagePerAttack);
+      console.log(one);
+      const two = Math.ceil(fighter2.health / fighter1.damagePerAttack);
+      console.log(two);
+      if (one == two) {
+            return firstAttacker;
+      } else {
+            return one > two ? fighter1.name : fighter2.name;
+      }
+}
+ */
