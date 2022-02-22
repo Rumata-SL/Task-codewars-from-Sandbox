@@ -69,3 +69,21 @@ function sumStr(a, b) {
       return sum + "";
 }
  */
+// Task № 74 7 kyu---------------------------
+// Testing 1-2-3
+/*
+      Your team is writing a fancy new text editor and you've been tasked with implementing the line numbering.
+      Write a function which takes a list of strings and returns each line prepended by the correct number.
+      The numbering starts at 1. The format is n: string. Notice the colon and space in between. 
+*/
+/*
+      Ваша команда пишет новый модный текстовый редактор, и вам поручили внедрить нумерацию строк.
+      Напишите функцию, которая принимает список строк и возвращает каждую строку с правильным номером перед ним.
+      Нумерация начинается с 1. Формат n: string. Обратите внимание на двоеточие и пробел между ними.
+*/
+
+const number = function (array) {
+      return array.map((item, i) => {
+            return `${i + 1}: ${item}`;
+      });
+};
