@@ -186,3 +186,23 @@ function findShort(s) {
       return s.length;
 }
  */
+
+// Task № 79 8 kyu---------------------------
+// Square(n) Sum
+/*
+      Complete the square sum function so that it squares each number passed into it and then sums the results together.
+      For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9. 
+*/
+/*
+      Завершите функцию квадратной суммы, чтобы она возводила в квадрат каждое переданное ей число, а затем суммировала результаты.
+      Например, for [1, 2, 2]это должно возвращаться , 9потому что 1^2 + 2^2 + 2^2 = 9. 
+*/
+/* 
+function squareSum(numbers) {
+      let count = 0;
+      for (let i = 0; i < numbers.length; i++) {
+            count += numbers[i] * numbers[i];
+      }
+      return count;
+} 
+*/
