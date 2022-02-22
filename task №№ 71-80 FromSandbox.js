@@ -206,3 +206,20 @@ function squareSum(numbers) {
       return count;
 } 
 */
+// Task № 80 7 kyu---------------------------
+// Sort array by string length
+/*
+      Write a function that takes an array of strings as an argument and returns a sorted array containing the same strings, ordered from shortest to longest.
+      For example, if this array were passed as an argument:
+      ["Telescopes", "Glasses", "Eyes", "Monocles"] 
+*/
+/*
+      Напишите функцию, которая принимает массив строк в качестве аргумента и возвращает отсортированный массив, содержащий те же строки, упорядоченные от самой короткой до самой длинной. 
+*/
+/* 
+function sortByLength(array) {
+      return array.sort((a, b) => {
+            return a.length - b.length;
+      });
+}
+ */
