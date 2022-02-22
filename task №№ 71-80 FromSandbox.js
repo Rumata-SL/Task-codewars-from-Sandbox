@@ -81,9 +81,24 @@ function sumStr(a, b) {
       Напишите функцию, которая принимает список строк и возвращает каждую строку с правильным номером перед ним.
       Нумерация начинается с 1. Формат n: string. Обратите внимание на двоеточие и пробел между ними.
 */
-
+/* 
 const number = function (array) {
       return array.map((item, i) => {
             return `${i + 1}: ${item}`;
       });
 };
+ */
+
+// Task № 75 8 kyu---------------------------
+// Remove exclamation marks
+/*
+      Write function RemoveExclamationMarks which removes all exclamation marks from a given string. 
+ */
+/*
+      Напишите функцию RemoveExclamationMarks, которая удаляет все восклицательные знаки из заданной строки. 
+*/
+/* 
+function removeExclamationMarks(s) {
+      return s.replace(/!/g, "");
+}
+ */
