@@ -169,3 +169,27 @@ function getVowels(str) {
       return str === null ? 0 : str.length;
 }
  */
+// Task № 68 7 kyu---------------------------
+// Make a function that does arithmetic!
+/*
+      Given two numbers and an arithmetic operator (the name of it, as a string),
+      return the result of the two numbers having that operator used on them.
+      a and b will both be positive integers, and a will always be the first number in the operation, and b always the second.
+      The four operators are "add", "subtract", "divide", "multiply".
+*/
+/*
+      Имея два числа и арифметический оператор (его имя в виде строки), верните результат двух чисел, к которым был применен этот оператор.
+      aи bоба будут положительными целыми числами, и aвсегда будут первым числом в операции и bвсегда вторым.
+      Четыре оператора: «сложить», «вычесть», «делить», «умножить».
+*/
+/* 
+function arithmetic(a, b, operator) {
+      let calc = {
+            add: a + b,
+            subtract: a - b,
+            multiply: a * b,
+            divide: a / b,
+      };
+      return calc[operator];
+}
+ */
