@@ -146,3 +146,24 @@ function problem(x) {
       return typeof x === "string" ? "Error" : x * 50 + 6;
 }
  */
+// Task № 89 8 kyu---------------------------
+// How good are you really?
+/*
+      There was a test in your class and you passed it. Congratulations!
+      But you're an ambitious person. You want to know if you're better than the average student in your class.
+      You receive an array with your peers' test scores. Now calculate the average and compare your score!
+      Return True if you're better, else False! 
+*/
+/*
+      В вашем классе был тест, и вы его прошли. Поздравляем!
+      Но вы амбициозный человек. Вы хотите знать, лучше ли вы, чем средний ученик в вашем классе.
+      Вы получаете массив с результатами тестов ваших сверстников. Теперь посчитайте среднее и сравните свой результат!
+      Вернись True, если тебе лучше, иначе False! 
+*/
+function betterThanAverage(classPoints, yourPoints) {
+      let count = 0;
+      classPoints.forEach((element) => {
+            count += element;
+      });
+      return yourPoints > ~~(count / classPoints.length) ? true : false;
+}
