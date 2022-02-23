@@ -160,6 +160,7 @@ function problem(x) {
       Вы получаете массив с результатами тестов ваших сверстников. Теперь посчитайте среднее и сравните свой результат!
       Вернись True, если тебе лучше, иначе False! 
 */
+/* 
 function betterThanAverage(classPoints, yourPoints) {
       let count = 0;
       classPoints.forEach((element) => {
@@ -167,3 +168,31 @@ function betterThanAverage(classPoints, yourPoints) {
       });
       return yourPoints > ~~(count / classPoints.length) ? true : false;
 }
+ */
+// Task № 90 7 kyu---------------------------
+// Check the exam
+/*
+      The first input array is the key to the correct answers to an exam, like ["a", "a", "b", "d"]. The second one contains a student's submitted answers.
+      The two arrays are not empty and are the same length. Return the score for this array of answers, giving +4 for each correct answer, -1 for each incorrect answer, and +0 for each blank answer, represented as an empty string (in C the space character is used).
+      If the score < 0, return 0. 
+*/
+/*
+      Первый входной массив — это ключ к правильным ответам на экзамене, например ["а", "а", "б", "г"]. Второй содержит представленные ответы студента.
+      Два массива не пусты и имеют одинаковую длину. Возвращает оценку для этого массива ответов, давая +4 за каждый правильный ответ, -1 за каждый неправильный ответ и +0 за каждый пустой ответ, представленный в виде пустой строки (в C используется символ пробела).
+      Если оценка < 0, вернуть 0. 
+*/
+/* 
+function checkExam(array1, array2) {
+      let count = 0;
+      for (let i = 0; i < array1.length; i++) {
+            if (array2[i] === array1[i]) {
+                  count += 4;
+            } else if (array2[i] === "") {
+                  count += 0;
+            } else {
+                  count -= 1;
+            }
+      }
+      return count < 0 ? 0 : count;
+}
+ */
