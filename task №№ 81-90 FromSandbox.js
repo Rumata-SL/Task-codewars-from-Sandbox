@@ -76,7 +76,7 @@ function sayHello(name) {
       return `Hello, ${name}`;
 }
  */
-// Task № 84 8 kyu---------------------------
+// Task № 85 8 kyu---------------------------
 // Double Char
 /*
       Given a string, you have to return a string in 
@@ -86,11 +86,33 @@ function sayHello(name) {
       Учитывая строку, вы должны вернуть строку, в которой каждый 
       символ (с учетом регистра) повторяется один раз. 
 */
+/* 
 function doubleChar(str) {
       let arr = [];
-      for (let i = 0; i <= str.length - 1; i++) {
+      for (let i = 0; i < str.length; i++) {
             arr.push(str[i]);
             arr.push(str[i]);
       }
       return arr.join("");
 }
+ */
+// Task № 86 8 kyu---------------------------
+// Volume of a Cuboid
+/*
+      Bob needs a fast way to calculate the volume of a cuboid
+      with three values: length, width and the height of the cuboid.
+      Write a function to help Bob with this calculation. 
+*/
+/* 
+      Бобу нужен быстрый способ вычисления объема прямоугольного 
+      параллелепипеда с тремя значениями: length, widthи heightпрямоугольного 
+      параллелепипеда. Напишите функцию, которая поможет Бобу в этом вычислении. 
+*/
+
+/* 
+class Kata {
+      static getVolumeOfCuboid(length, width, height) {
+            return length * width * height
+      }
+} 
+*/
