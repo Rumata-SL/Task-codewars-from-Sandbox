@@ -59,3 +59,20 @@ function testEven(n) {
       return n % 2 ? false : true;
 }
  */
+// Task № 84 8 kyu---------------------------
+// Grasshopper - Debug sayHello
+/*
+      The starship Enterprise has run into some problem when
+      creating a program to greet everyone as they come aboard.
+      It is your job to fix the code and get the program working again! 
+*/
+/*
+      Звездолет «Энтерпрайз» столкнулся с проблемой при создании 
+      программы для приветствия всех, кто поднимается на борт.
+      Ваша задача — исправить код и заставить программу снова работать! 
+*/
+/* 
+function sayHello(name) {
+      return `Hello, ${name}`;
+}
+ */
