@@ -76,3 +76,21 @@ function sayHello(name) {
       return `Hello, ${name}`;
 }
  */
+// Task № 84 8 kyu---------------------------
+// Double Char
+/*
+      Given a string, you have to return a string in 
+      which each character (case-sensitive) is repeated once. 
+*/
+/*
+      Учитывая строку, вы должны вернуть строку, в которой каждый 
+      символ (с учетом регистра) повторяется один раз. 
+*/
+function doubleChar(str) {
+      let arr = [];
+      for (let i = 0; i <= str.length - 1; i++) {
+            arr.push(str[i]);
+            arr.push(str[i]);
+      }
+      return arr.join("");
+}
