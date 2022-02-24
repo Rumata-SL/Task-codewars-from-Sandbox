@@ -35,3 +35,27 @@ function feast(beast, dish) {
 /* 
 const square = (num) => num * num;
  */
+
+// Task № 93 7 kyu---------------------------
+// Anagram Detection
+/*
+      An anagram is the result of rearranging the letters 
+      of a word to produce a new word (see wikipedia).
+      Note: anagrams are case insensitive
+      Complete the function to return true if the two arguments
+      given are anagrams of each other; return false otherwise. 
+ */
+/*
+      Анаграмма — это результат перестановки букв 
+      слова для получения нового слова (см. Википедию ).
+      Примечание: анаграммы нечувствительны к регистру .
+      Завершите возвращаемую функцию, trueесли два заданных 
+      аргумента являются анаграммами друг друга; вернуть falseиначе. 
+*/
+/* 
+const isAnagram = function (test, original) {
+      test = test.toLowerCase().split("").sort().join("");
+      original = original.toLowerCase().split("").sort().join("");
+      return test === original ? true : false;
+};
+ */
