@@ -59,3 +59,24 @@ const isAnagram = function (test, original) {
       return test === original ? true : false;
 };
  */
+
+// Task № 94 7 kyu---------------------------
+// Get the Middle Character
+/*
+      You are going to be given a word. Your job is to return 
+      the middle character of the word. If the word's length is odd, 
+      return the middle character. If the word's length is even,
+      return the middle 2 characters.
+  */
+/*
+      Вам дадут слово. Ваша задача — вернуть средний символ слова.
+      Если длина слова нечетная, вернуть средний символ.
+      Если длина слова четная, верните средние 2 символа. 
+*/
+/* 
+function getMiddle(s) {
+      return s.length % 2
+            ? s.charAt(s.length / 2)
+            : s.charAt(s.length / 2 - 1).concat(s.charAt(s.length / 2));
+}
+ */
