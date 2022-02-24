@@ -120,3 +120,25 @@ function points(games) {
       return count;
 }
  */
+
+// Task № 96 7 kyu---------------------------
+// Factorial
+/*
+      In mathematics, the factorial of a non-negative integer n,
+      denoted by n!, is the product of all positive integers less than or equal to n.
+      For example: 5! = 5 * 4 * 3 * 2 * 1 = 120. By convention the value of 0! is 1. 
+*/
+/*
+      В математике факториал неотрицательного целого числа n,
+      обозначаемый n!, представляет собой произведение всех
+      положительных целых чисел, меньших или равных n. Например:
+      5! = 5 * 4 * 3 * 2 * 1 = 120. По соглашению значение 0! 1. 
+*/
+
+/* function factorial(n) {
+      if (n < 0 || n > 12) {
+            throw new Error("n < 0 || n > 12");
+      }
+      return n <= 1 ? 1 : n * factorial(n - 1);
+}
+ */
