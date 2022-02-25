@@ -53,7 +53,27 @@ function removeUrlAnchor(url) {
       solution('abc', 'bc') // returns true
       solution('abc', 'd') // returns false 
 */
-
+/* 
 function solution(str, ending) {
       return str.endsWith(ending);
 }
+ */
+// Task № 104 8 kyu---------------------------
+// What is between?
+/*
+      Complete the function that takes two integers (a, b, where a < b)
+      and return an array of all integers between the input parameters, including them. 
+*/
+/*
+      Завершите функцию, которая принимает два целых числа ( a, b, где a < b)
+      и верните массив всех целых чисел между входными параметрами, включая их.
+*/
+/* 
+function between(a, b) {
+      let arr = [];
+      for(let i = a; i <= b; i++){
+            arr.push(i);
+      }
+      return arr;
+}
+ */
