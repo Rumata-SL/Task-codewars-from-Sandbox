@@ -192,3 +192,19 @@ function greet(name, owner) {
       return name === owner ? "Hello boss" : "Hello guest";
 }
  */
+// Task № 99 8 kyu---------------------------
+// Is it a palindrome?
+/*
+      Write a function that checks if a given string
+      (case insensitive) is a palindrome. 
+ */
+/*
+      Напишите функцию, которая проверяет, является ли
+      заданная строка (без учета регистра) палиндромом . 
+*/
+
+/* function isPalindrome(x) {
+      let y = x.toUpperCase().split("").reverse().join("");
+      return x.toUpperCase() === y ? true : false;
+}
+ */
