@@ -77,3 +77,21 @@ function between(a, b) {
       return arr;
 }
  */
+
+// Task № 105 6 kyu---------------------------
+// Sort the odd
+/*
+      You will be given an array of numbers.
+      You have to sort the odd numbers in ascending 
+      order while leaving the even numbers at their original positions. 
+*/
+/* 
+      Вам будет предоставлен массив чисел. Вы должны отсортировать нечетные числа в порядке возрастания, оставив четные числа на их исходных позициях. 
+*/
+
+function sortArray(array) {
+      let arr = array
+            .filter((num) => num % 2)
+            .sort((pref, next) => pref - next);
+      return array.map((el) => (el % 2 ? arr.shift() : el));
+}
