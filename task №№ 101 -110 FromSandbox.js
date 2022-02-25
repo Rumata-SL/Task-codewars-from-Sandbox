@@ -200,3 +200,30 @@ const reverseSeq = (n) => {
       return arr;
 };
  */
+// Task № 110 8 kyu---------------------------
+// Beginner Series #2 Clock
+/*
+      Clock shows h hours, m minutes and s seconds after midnight.
+      Your task is to write a function which returns 
+      the time since midnight in milliseconds.
+      Example:
+      h = 0
+      m = 1
+      s = 1
+      result = 61000 
+*/
+/*
+      Часы показывают hчасы, mминуты и sсекунды после полуночи.
+      Ваша задача — написать функцию, которая возвращает
+      время с полуночи в миллисекундах.
+      Пример:
+      h = 0
+      m = 1
+      s = 1
+      result = 61000 
+*/
+/* 
+function past(h, m, s) {
+      return h * 3600000 + m * 60000 + s * 1000;
+}
+ */
