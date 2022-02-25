@@ -88,10 +88,38 @@ function between(a, b) {
 /* 
       Вам будет предоставлен массив чисел. Вы должны отсортировать нечетные числа в порядке возрастания, оставив четные числа на их исходных позициях. 
 */
-
+/* 
 function sortArray(array) {
       let arr = array
             .filter((num) => num % 2)
             .sort((pref, next) => pref - next);
       return array.map((el) => (el % 2 ? arr.shift() : el));
 }
+ */
+// Task № 106 7 kyu---------------------------
+// Find the middle element
+/*
+      As a part of this Kata, you need to create a function
+      that when provided with a triplet, returns the index 
+      of the numerical element that lies between the other two elements.
+      The input to the function will be an array of three
+      distinct numbers (Haskell: a tuple). 
+ */
+/*
+      В рамках этой Ката вам нужно создать функцию, 
+      которая при наличии триплета возвращает индекс 
+      числового элемента, лежащего между двумя другими элементами.
+      Входными данными для функции будет массив 
+      из трех различных чисел (Haskell: кортеж). 
+*/
+/* 
+function gimme(triplet) {
+      let arr = [...triplet];
+      triplet.sort((a, b) => b - a);
+      for (let i = 0; i < arr.length; i++) {
+            if (arr[i] == triplet[1]) {
+                  return i;
+            }
+      }
+}
+ */
