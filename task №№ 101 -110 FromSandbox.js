@@ -141,3 +141,41 @@ function unusualFive() {
       return str.length;
 }
  */
+// Task № 108 8 kyu---------------------------
+// Grade book
+/*
+      Complete the function so that it finds the average
+      of the three scores passed to it and returns the
+      letter value associated with that grade.
+      Numerical Score	Letter Grade
+      90 <= score <= 100	'A'
+      80 <= score < 90	'B'
+      70 <= score < 80	'C'
+      60 <= score < 70	'D'
+      0 <= score < 60	'F' 
+*/
+/*
+      Завершите функцию, чтобы она нашла среднее 
+      значение трех переданных ей баллов и вернула
+      буквенное значение, связанное с этой оценкой.
+      Числовая оценка	Письмо Оценка
+      90 <= оценка <= 100	«А»
+      80 <= оценка < 90	'Б'
+      70 <= оценка < 80	'С'
+      60 <= оценка < 70	'Д'
+      0 <= оценка < 60	'Ф'
+*/
+/* 
+function getGrade(s1, s2, s3) {
+      let sum = (s1 + s2 + s3) / 3;
+      return sum >= 0 && sum < 60
+            ? "F"
+            : sum >= 60 && sum < 70
+            ? "D"
+            : sum >= 70 && sum < 80
+            ? "C"
+            : sum >= 80 && sum < 90
+            ? "B"
+            : "A";
+}
+ */
