@@ -160,6 +160,7 @@ function points(games) {
       countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]
       countBy(2,5) === [2,4,6,8,10] 
 */
+/* 
 function countBy(x, n) {
       let z = [];
       for (let i = 1; i <= n; i++) {
@@ -167,3 +168,27 @@ function countBy(x, n) {
       }
       return z;
 }
+ */
+// Task № 98 8 kyu---------------------------
+// Grasshopper - Personalized Message
+/*
+      Create a function that gives a personalized greeting.
+      This function takes two parameters: name and owner.
+      Use conditionals to return the proper message:
+      case	return
+      name equals owner	'Hello boss'
+      otherwise	'Hello guest' 
+*/
+/*
+      Создайте функцию, которая выдает персонализированное приветствие.
+      Эта функция принимает два параметра: nameи owner.
+      Используйте условные выражения, чтобы вернуть правильное сообщение:
+      кейс	вернуть
+      имя равно владельцу	'Привет босс'
+      иначе	«Привет, гость» 
+*/
+/* 
+function greet(name, owner) {
+      return name === owner ? "Hello boss" : "Hello guest";
+}
+ */
